@@ -1,0 +1,22 @@
+[project]
+name = "bio-class"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "moraxborax", email = "humphrey57shen@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "scipy>=1.18.1",
+    "tqdm>=4.70.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.3",
+]
+
